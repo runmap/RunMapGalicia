@@ -1,0 +1,276 @@
+
+
+<!DOCTYPE html>
+
+<html lang="gl">
+<head><meta charset="UTF-8"><title>
+	Carreiras Galegas - Federación Galega de Atletismo
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" /><link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" /><link href="css/pages/globals.css" rel="stylesheet" /><link href="css/pages/master.css" rel="stylesheet" /><link href="css/cookiecuttr.css" rel="stylesheet" />
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.cookiecuttr.js"></script>
+    <script src="js/pages/globals.js"></script>
+    <script src="js/pages/master.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    
+    <script src="js/bootstrap-formhelpers.min.js"></script>
+    <link href="css/bootstrap-formhelpers.min.css" rel="stylesheet">
+    <script src="js/bootstrap-formhelpers-countries.es_ES.js"></script>
+    <script src="js/typeahead.min.js"></script>
+    <script src="js/pages/contacto.js"></script>
+    <link href="css/pages/contacto.css" rel="stylesheet" />
+<link href="css/pages/mobile.css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="contacto" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="g0QSTmrW+IDrBJmSFfq6g2J8B0f0aDoh37QptmhuZYLt60P2l427BwnnhfCDzheY8+uXRvREWpPPbTV68O2vGPHlmY+fB6EJjsgQehC5OyWBYjQB1u451vcQeeDIZbxdcTgMZeAwABvDCNApPJT45q998Pxw+0/CYhbSNELbtqsw81UwBMFTuL05ULDG75ad6e3g7abC4cMmXcFHt9thwRq95sxPZiMFa33V+fCoaT0=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="rABbrg1MmTj0f3txX2xrDGm6ESdNGzL0EaSC1j0lDY8ORpVCKvfHirU5aatglx/qA45aIuQs8B9DghYYwN5z6WZX4hjSVa+icCHXAi7K2Ds6Bup4c/GlsbD1dp6Zx+SR4VmPwMQYVC0OHlLzlNAnMiP85kzCiNFcY6hkdf7uWO/yaYvrrNCD9ZD3xTV6xUXZeH0s4u1Zd+juR/8Ynk5jKQ==" />
+        <header>
+            <div class="header">
+                <nav class="navbar navbar-default container" role="navigation">
+                    <!-- Brand and toggle get grouped for better mo
+                    bile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/master/logo-carreiras-galegas.jpg" /></a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#categorias">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="header-info">                            
+                            <div class="header-contact">
+                                <span><i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a></span> <span><i class="fa fa-phone"></i>+34 981 29 17 99<br />
+                                </span>
+                            </div>
+                            <div class="btn-group language">
+                                <button type="button" class="btn btn-default">GL</button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="contacto#">GL</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="categorias">
+                        <ul class="nav navbar-nav">
+                            <li id="nav-inicio">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li id="nav-noticias">
+                                <a href="noticias">Novas</a>
+                            </li>
+                            <li id="nav-calendario">
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li id="nav-resultados">
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li id="nav-entrenamiento">
+                                <a href="entrenamiento">Adestramento</a>
+                            </li>
+                            <li id="nav-salud">
+                                <a href="salud">Saúde</a>
+                            </li>
+                            <li id="nav-licenzas">
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li id="nav-contacto">
+                                <a href="contacto">Contacto</a>
+                            </li>
+                            
+                            
+                             
+                             
+                            <li id="navlogin" class="pull-right">
+                                <a href="login"><i class="fa fa-sign-in"></i> Iniciar sesión</a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        <section class="container web-content">
+            <aside id="filter">
+            </aside>
+            <section>
+                
+    <div id="contacto">
+        <div class="col-md-12 map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.663598645283!2d-8.414295999999975!3d43.342228000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7cb94a9f1c6f%3A0x8c1c0fcc8b8de143!2sFederaci%C3%B3n+Galega+de+Atletismo!5e0!3m2!1ses!2ses!4v1437664573070" height="450" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12 contacto">
+                <div class="col-md-2 thumbnail">
+                    <img src="img/master/escudo_fga_web.jpg" />
+                </div>
+                <div class="col-md-10">
+                    <address>
+                        <strong>Federación Galega de Atletismo</strong><br>
+                        <i class="fa fa-map-marker"></i>Avenida de Glasgow S/N<br />
+                        <span>O Birloque, 15008 A Coruña</span><br />
+                        <i class="fa fa-phone"></i>+34 981 29 17 99 - 981 29 16 83<br />
+                        <i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a>
+                    </address>
+                </div>
+            </div>
+            <div class="col-md-12 contacto">
+                <div class="col-md-2 thumbnail">
+                    <img src="img/master/carlos.jpg" />
+                </div>
+                <div class="col-md-10">
+                    <address>
+                        <strong>Carlos Castro Vicente</strong><br>
+                        <i class="fa fa-briefcase"></i>Licenciado en Ciencias de la Actividad Física y del Deporte<br />
+                        <span>Diplomado en Magisterio, especialidad en Educación Física</span><br />
+                        <span>Operador sistema cronometraje FGA</span><br />
+                        
+                    </address>
+                </div>
+            </div>
+            <div class="col-md-12 contacto">
+                <div class="col-md-2 thumbnail">
+                    <img src="img/master/julio.jpg" src="contacto" />
+                </div>
+                <div class="col-md-10">
+                    <address>
+                        <strong>Julio Santiago Freijanes</strong><br>
+                        <i class="fa fa-briefcase"></i>Monitor nacional de atletismo<br />
+                        <span>Juez nacional de atletismo</span><br />
+                        <span>Operador sistema cronometraje FGA</span><br />
+                        
+                    </address>
+                </div>
+            </div>
+            <div class="col-md-12 contacto">
+                <div class="col-md-2 thumbnail">
+                    <img src="img/master/contacto.jpg" src="contacto" />
+                </div>
+                <div class="col-md-10">
+                    <address>
+                        <strong>Francisco Javier Alonso Álvarez</strong><br>
+                        <i class="fa fa-briefcase"></i>Diplomado en Ciencias Empresariales<br />
+                        <span>Juez territorial</span><br />
+                        <span>Operador sistema cronometraje FGA</span>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 formulario">
+            <div id="panContacto">
+	
+                <div class="form-group">
+                    <label for="nombre">Nome</label>
+                    <input name="ctl00$content$nombre" type="text" id="nombre" class="form-control required" placeholder="Introduce o teu nome" />
+                </div>
+                <div class="form-group">
+                    <label for="mail">Correo electrónico</label>
+                    <input name="ctl00$content$mail" type="text" id="mail" class="form-control required" placeholder="Introduce o teu correo electrónico" />
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input name="ctl00$content$telefono" type="text" id="telefono" class="form-control required" placeholder="Introduce o teu teléfono" />
+                </div>
+                <div class="form-group">
+                    <label for="mail">Mensaxe</label>
+                    <textarea name="ctl00$content$mensaje" id="mensaje" class="form-control required" placeholder="Introduce a túa mensaxe"></textarea>
+                </div>
+                <div class="form-group">
+                    <input id="conditions" name="conditions" class="required" type="checkbox" /> Lin e acepto as <a href="aviso-legal" target="_blank">condicións de uso</a>.
+                </div>
+                <div class="enviar">
+                    <a id="linEnviar" class="btn btn-primary" href="javascript:__doPostBack(&#39;ctl00$content$linEnviar&#39;,&#39;&#39;)">Enviar</a>
+                </div>
+            
+</div>
+            
+        </div>
+    </div>
+
+            </section>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-4 info">
+                        <strong>Carreiras Galegas</strong>
+                        <p>Benvido á web do departamento de carreiras populares oficiais da Federación Galega de Atletismo. Aquí atoparás toda a información relativa ó calendario autonómico</p>
+                        
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 address">
+                        <address>
+                            <strong>Federación Galega de Atletismo</strong><br>
+                            <i class="fa fa-map-marker"></i>Avenida de Glasgow S/N<br />
+                            <span>O Birloque, 15008 A Coruña</span><br />
+                            <i class="fa fa-phone"></i>+34 981 29 17 99 - 981 29 16 83<br />
+                            <i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-12">
+                        ©
+                        2015
+                        Federación Galega de Atletismo - Sitio web desenvolvido por <a href="http://www.igasoft.es" target="_blank">Igasoft</a>
+
+                        <ul class="footer-nav">
+                            <li>
+                                <a href="aviso-legal">Aviso Legal</a>
+                            </li>
+                            <li>
+                                <a href="politica-cookies">Política de cookies</a>
+                            </li>
+                            <li>
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li>
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li>
+                                <a href="noticias">Novas</a>
+                            </li>
+                             <li>
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li>
+                                <a href="contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46963871-1', 'carreirasgalegas.com');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

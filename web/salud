@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html>
+
+<html lang="gl">
+<head><meta charset="UTF-8"><title>
+	Carreiras Galegas - Federación Galega de Atletismo
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" /><link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" /><link href="css/pages/globals.css" rel="stylesheet" /><link href="css/pages/master.css" rel="stylesheet" /><link href="css/cookiecuttr.css" rel="stylesheet" />
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.cookiecuttr.js"></script>
+    <script src="js/pages/globals.js"></script>
+    <script src="js/pages/master.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    
+    <script src="js/pages/salud.js"></script>
+    <link href="css/pages/noticias.css" rel="stylesheet" />
+<link href="css/pages/mobile.css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="salud" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+        <header>
+            <div class="header">
+                <nav class="navbar navbar-default container" role="navigation">
+                    <!-- Brand and toggle get grouped for better mo
+                    bile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/master/logo-carreiras-galegas.jpg" /></a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#categorias">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="header-info">                            
+                            <div class="header-contact">
+                                <span><i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a></span> <span><i class="fa fa-phone"></i>+34 981 29 17 99<br />
+                                </span>
+                            </div>
+                            <div class="btn-group language">
+                                <button type="button" class="btn btn-default">GL</button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="salud#">GL</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="categorias">
+                        <ul class="nav navbar-nav">
+                            <li id="nav-inicio">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li id="nav-noticias">
+                                <a href="noticias">Novas</a>
+                            </li>
+                            <li id="nav-calendario">
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li id="nav-resultados">
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li id="nav-entrenamiento">
+                                <a href="entrenamiento">Adestramento</a>
+                            </li>
+                            <li id="nav-salud">
+                                <a href="salud">Saúde</a>
+                            </li>
+                            <li id="nav-licenzas">
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li id="nav-contacto">
+                                <a href="contacto">Contacto</a>
+                            </li>
+                            
+                            
+                             
+                             
+                            <li id="navlogin" class="pull-right">
+                                <a href="login"><i class="fa fa-sign-in"></i> Iniciar sesión</a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        <section class="container web-content">
+            <aside id="filter">
+            </aside>
+            <section>
+                
+    <div id="noticias">
+        <div class="col-md-12">
+            
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/la-muerte-s-bita-en-el-running-fonte-dr-daniel-brotons/0e10efe4-cc8f-68bb-6af3-39c68b3404e3'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/0e10efe4-cc8f-68bb-6af3-39c68b3404e3-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">luns, 11 de novembro de 2013</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/la-muerte-s-bita-en-el-running-fonte-dr-daniel-brotons/0e10efe4-cc8f-68bb-6af3-39c68b3404e3'>
+                                    LA MUERTE SÚBITA EN EL RUNNING (Fonte: Dr. Daniel Brotons)</a></h2>
+                            <p><p align="justify">Por desgracia, con el boom de las carreras populares también han aumentado las noticias sobre paradas cardiorrespiratorias. Un especialista en la materia como es el Doctor Daniel Brotons aclara conceptos y nos da algunos consejos.<br></p></p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/la-muerte-s-bita-en-el-running-fonte-dr-daniel-brotons/0e10efe4-cc8f-68bb-6af3-39c68b3404e3'>Ver noticia</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/argumentaciones-cient-ficas-a-correr-descalzo-fonte-david-lampon/212aa468-2f42-4a43-a5ee-39c6d0a3bc57'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/212aa468-2f42-4a43-a5ee-39c6d0a3bc57-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">xoves, 18 de agosto de 2011</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/argumentaciones-cient-ficas-a-correr-descalzo-fonte-david-lampon/212aa468-2f42-4a43-a5ee-39c6d0a3bc57'>
+                                    ARGUMENTACIONES CIENTÍFICAS A CORRER DESCALZO (Fonte: David Lampón)</a></h2>
+                            <p>Tras seis artículos de experimentos, sensaciones y experiencias debo daros las gracias por el salto de fe que habéis hecho junto a mí hasta el día de hoy. La organización que hemos dado a los artículos no nos ha permitido hasta ahora ofreceros la explicación que os promete el título de esta entrada y que merecéis desde hace tiempo</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/argumentaciones-cient-ficas-a-correr-descalzo-fonte-david-lampon/212aa468-2f42-4a43-a5ee-39c6d0a3bc57'>Ver noticia</a>
+                        </div>
+                    </div>
+                
+        </div>
+    </div>
+
+            </section>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-4 info">
+                        <strong>Carreiras Galegas</strong>
+                        <p>Benvido á web do departamento de carreiras populares oficiais da Federación Galega de Atletismo. Aquí atoparás toda a información relativa ó calendario autonómico</p>
+                        
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 address">
+                        <address>
+                            <strong>Federación Galega de Atletismo</strong><br>
+                            <i class="fa fa-map-marker"></i>Avenida de Glasgow S/N<br />
+                            <span>O Birloque, 15008 A Coruña</span><br />
+                            <i class="fa fa-phone"></i>+34 981 29 17 99 - 981 29 16 83<br />
+                            <i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-12">
+                        ©
+                        2015
+                        Federación Galega de Atletismo - Sitio web desenvolvido por <a href="http://www.igasoft.es" target="_blank">Igasoft</a>
+
+                        <ul class="footer-nav">
+                            <li>
+                                <a href="aviso-legal">Aviso Legal</a>
+                            </li>
+                            <li>
+                                <a href="politica-cookies">Política de cookies</a>
+                            </li>
+                            <li>
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li>
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li>
+                                <a href="noticias">Novas</a>
+                            </li>
+                             <li>
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li>
+                                <a href="contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46963871-1', 'carreirasgalegas.com');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

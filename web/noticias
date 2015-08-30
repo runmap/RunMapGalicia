@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+
+<html lang="gl">
+<head><meta charset="UTF-8"><title>
+	Carreiras Galegas - Federación Galega de Atletismo
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" /><link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" /><link href="css/pages/globals.css" rel="stylesheet" /><link href="css/pages/master.css" rel="stylesheet" /><link href="css/cookiecuttr.css" rel="stylesheet" />
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.cookiecuttr.js"></script>
+    <script src="js/pages/globals.js"></script>
+    <script src="js/pages/master.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    
+    <script src="js/pages/noticias.js"></script>
+    <link href="css/pages/noticias.css" rel="stylesheet" />
+<link href="css/pages/mobile.css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="noticias" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+        <header>
+            <div class="header">
+                <nav class="navbar navbar-default container" role="navigation">
+                    <!-- Brand and toggle get grouped for better mo
+                    bile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/master/logo-carreiras-galegas.jpg" /></a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#categorias">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="header-info">                            
+                            <div class="header-contact">
+                                <span><i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a></span> <span><i class="fa fa-phone"></i>+34 981 29 17 99<br />
+                                </span>
+                            </div>
+                            <div class="btn-group language">
+                                <button type="button" class="btn btn-default">GL</button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="noticias#">GL</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="categorias">
+                        <ul class="nav navbar-nav">
+                            <li id="nav-inicio">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li id="nav-noticias">
+                                <a href="noticias">Novas</a>
+                            </li>
+                            <li id="nav-calendario">
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li id="nav-resultados">
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li id="nav-entrenamiento">
+                                <a href="entrenamiento">Adestramento</a>
+                            </li>
+                            <li id="nav-salud">
+                                <a href="salud">Saúde</a>
+                            </li>
+                            <li id="nav-licenzas">
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li id="nav-contacto">
+                                <a href="contacto">Contacto</a>
+                            </li>
+                            
+                            
+                             
+                             
+                            <li id="navlogin" class="pull-right">
+                                <a href="login"><i class="fa fa-sign-in"></i> Iniciar sesión</a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        <section class="container web-content">
+            <aside id="filter">
+            </aside>
+            <section>
+                
+    <div id="noticias">
+        <div class="col-md-12">
+            
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/gran-nivel-de-participaci-n-entre-os-296-atletas-que-ir-n-carreira-das-areas-fonte-www-lavozdegalicia-es/e17aad50-6568-8bdc-1021-39d24d108b2e'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/e17aad50-6568-8bdc-1021-39d24d108b2e-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">luns, 17 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/gran-nivel-de-participaci-n-entre-os-296-atletas-que-ir-n-carreira-das-areas-fonte-www-lavozdegalicia-es/e17aad50-6568-8bdc-1021-39d24d108b2e'>
+                                    GRAN NIVEL DE PARTICIPACIÓN ENTRE OS 296 ATLETAS QUE IRÁN Á CARREIRA DAS AREAS. (Fonte: www.lavozdegalicia.es)</a></h2>
+                            <p>Míchel Antelo (Vimianzo), líder do circuíto; Cristian Muíño (Coristanco), actual vencedor do certame; César Vázquez (Zas), Andrés Eirís e Javier Seoane (Carballo), Amador Pena e Manuel Nodar (Santiago) ou Alberto Carou (Noia), son algúns dos 296 inscritos para disputar a Carreira dás Areas, en Carnota, o próximo día 29.&nbsp;</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/gran-nivel-de-participaci-n-entre-os-296-atletas-que-ir-n-carreira-das-areas-fonte-www-lavozdegalicia-es/e17aad50-6568-8bdc-1021-39d24d108b2e'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/adri-n-ben-y-sara-p-rez-conquistan-praia-am-rica-fonte-www-farodevigo-es/87e714ec-0d7c-18ae-ac0e-39d24d1516cb'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/87e714ec-0d7c-18ae-ac0e-39d24d1516cb-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">luns, 17 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/adri-n-ben-y-sara-p-rez-conquistan-praia-am-rica-fonte-www-farodevigo-es/87e714ec-0d7c-18ae-ac0e-39d24d1516cb'>
+                                    ADRIÁN BEN Y SARA PÉREZ CONQUISTAN PRAIA AMÉRICA (Fonte: www.farodevigo.es)</a></h2>
+                            <p>Relevo generacional en Praia América. Un atleta en edad juvenil y otro junior se disputaron la victoria en la recta final de la Nigrán Arena, cuya quinta edición se disputó ayer.</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/adri-n-ben-y-sara-p-rez-conquistan-praia-am-rica-fonte-www-farodevigo-es/87e714ec-0d7c-18ae-ac0e-39d24d1516cb'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/plano-do-circu-to-da-carreira-popular-coru%C3%B1a-10-do-11-de-outubro-do-2015-iii-circuito-provincial-de-carreiras-populares-deputaci-n-provincial-de-a-coru%C3%B1a/250895a7-9b7b-4261-2fd1-39d242e3e0b8'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/250895a7-9b7b-4261-2fd1-39d242e3e0b8-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">sábado, 15 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/plano-do-circu-to-da-carreira-popular-coru%C3%B1a-10-do-11-de-outubro-do-2015-iii-circuito-provincial-de-carreiras-populares-deputaci-n-provincial-de-a-coru%C3%B1a/250895a7-9b7b-4261-2fd1-39d242e3e0b8'>
+                                    PLANO DO CIRCUÍTO DA CARREIRA POPULAR CORUÑA 10 DO 11 DE OUTUBRO DO 2015. III CIRCUITO PROVINCIAL DE CARREIRAS POPULARES DEPUTACIÓN PROVINCIAL DE A CORUÑA</a></h2>
+                            <p>Pendente de homologación.</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/plano-do-circu-to-da-carreira-popular-coru%C3%B1a-10-do-11-de-outubro-do-2015-iii-circuito-provincial-de-carreiras-populares-deputaci-n-provincial-de-a-coru%C3%B1a/250895a7-9b7b-4261-2fd1-39d242e3e0b8'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/cambio-de-data-da-ix-carreira-popular-coru%C3%B1a-10-e-v-carreira-da-auga-unicef-sada/d446f431-1b9f-6ea1-61bf-39d242dbb228'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/d446f431-1b9f-6ea1-61bf-39d242dbb228-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">venres, 14 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/cambio-de-data-da-ix-carreira-popular-coru%C3%B1a-10-e-v-carreira-da-auga-unicef-sada/d446f431-1b9f-6ea1-61bf-39d242dbb228'>
+                                    CAMBIO DE DATA DA IX CARREIRA POPULAR CORUÑA 10 E V CARREIRA DA AUGA. UNICEF SADA.</a></h2>
+                            <p>Nota informativa: Por motivos organizativos e ante a imposibilidade de desenvolver a IX Carreira Popular Coruña10 o vindeiro 4 de octubre, o Concello da Coruña e a FGA confirman o cambio de data para o 11 de octubre polo que o calendario quedará da seguinte formA</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/cambio-de-data-da-ix-carreira-popular-coru%C3%B1a-10-e-v-carreira-da-auga-unicef-sada/d446f431-1b9f-6ea1-61bf-39d242dbb228'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/pres-ntase-a-i-carreira-e-andaina-popular-da-veiga-fonte-www-osil-info/965efffd-5365-e3a3-a536-39d24d22deee'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/965efffd-5365-e3a3-a536-39d24d22deee-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">martes, 11 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/pres-ntase-a-i-carreira-e-andaina-popular-da-veiga-fonte-www-osil-info/965efffd-5365-e3a3-a536-39d24d22deee'>
+                                    PRESÉNTASE A I CARREIRA E ANDAINA POPULAR DA VEIGA (Fonte: www.osil.info)</a></h2>
+                            <p><div>Dende a Casa Consistorial da Veiga partirá I Carreira e Andaina Popular, que se celebrará neste municipio o vindeiro 16 de agosto e cuxo percorrido será de 8 km.&nbsp;</div><div><br></div></p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/pres-ntase-a-i-carreira-e-andaina-popular-da-veiga-fonte-www-osil-info/965efffd-5365-e3a3-a536-39d24d22deee'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/ltimo-d-a-para-inscribirse-en-la-v-edici-n-de-la-carrera-nigr-n-area-fonte-telemarinas-com/578c5777-1fd8-2e2f-7e55-39d230242b28'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/578c5777-1fd8-2e2f-7e55-39d230242b28-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">martes, 11 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/ltimo-d-a-para-inscribirse-en-la-v-edici-n-de-la-carrera-nigr-n-area-fonte-telemarinas-com/578c5777-1fd8-2e2f-7e55-39d230242b28'>
+                                    ÚLTIMO DÍA PARA INSCRIBIRSE EN LA V EDICIÓN DE LA CARRERA NIGRÁN AREA (Fonte: telemarinas.com)</a></h2>
+                            <p>El Concello de Nigrán y la Sociedad Atlética Val Miñor, organizan el día 16 de agosto el "V Nigrán Area" de atletismo por la playa, que dará comienzo las 10:30 horas.</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/ltimo-d-a-para-inscribirse-en-la-v-edici-n-de-la-carrera-nigr-n-area-fonte-telemarinas-com/578c5777-1fd8-2e2f-7e55-39d230242b28'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/ltima-hora-da-i-corretroita-concello-de-sobrado-dos-monxes/6b5827ba-ddcc-1796-5ae2-39d21137f5d6'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/6b5827ba-ddcc-1796-5ae2-39d21137f5d6-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">venres, 07 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/ltima-hora-da-i-corretroita-concello-de-sobrado-dos-monxes/6b5827ba-ddcc-1796-5ae2-39d21137f5d6'>
+                                    ÚLTIMA HORA DA I CORRETROITA CONCELLO DE SOBRADO DOS MONXES</a></h2>
+                            <p>Amplíase o prazo de inscrición para os máis rezagados da I Corretroita Concello de Sobrado dos Monxes ata ás 23:59 do venres 7 de agosto.&nbsp;</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/ltima-hora-da-i-corretroita-concello-de-sobrado-dos-monxes/6b5827ba-ddcc-1796-5ae2-39d21137f5d6'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/barreiros-prepara-outra-edici-n-das-carreiras-polas-s-as-praias-fonte-www-lavozdegalicia-es/36d78ef3-7b01-219d-8956-39d210389293'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/36d78ef3-7b01-219d-8956-39d210389293-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">mércores, 05 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/barreiros-prepara-outra-edici-n-das-carreiras-polas-s-as-praias-fonte-www-lavozdegalicia-es/36d78ef3-7b01-219d-8956-39d210389293'>
+                                    BARREIROS PREPARA OUTRA EDICIÓN DAS CARREIRAS POLAS SÚAS PRAIAS (Fonte: www.lavozdegalicia.es)</a></h2>
+                            <p>O Centro de Instrución e Recreo de Benquerencia, impulsor e organizador da iniciativa, dispuxo onte na praia de Fontela (Barreiros) un concorrido acto para presentar a terceira edición da Carreira Popular Benquerencia Terra Mar, que se disputará o domingo 6 de setembro.</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/barreiros-prepara-outra-edici-n-das-carreiras-polas-s-as-praias-fonte-www-lavozdegalicia-es/36d78ef3-7b01-219d-8956-39d210389293'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/xxiv-carreira-das-areas-concello-de-carnota-ii-circu-to-correndo-pola-costa-da-morte/a43786b9-40d0-e622-0649-39d2113f7870'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/a43786b9-40d0-e622-0649-39d2113f7870-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">martes, 04 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/xxiv-carreira-das-areas-concello-de-carnota-ii-circu-to-correndo-pola-costa-da-morte/a43786b9-40d0-e622-0649-39d2113f7870'>
+                                    XXIV CARREIRA DAS AREAS CONCELLO DE CARNOTA - II CIRCUÍTO “CORRENDO POLA COSTA DA MORTE”</a></h2>
+                            <p>Ao longo de toda a xeografía de Galicia organízanse carreiras populares, pero a de Carnota non e unha máis, é única. O marco natural incomparable que ofrecen os 7 km de areal da praia de Carnota (a máis extensa de Galicia) permite gozar dun conxunto de vistas, flora e fauna que non atoparás en ningún outro lugar.</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/xxiv-carreira-das-areas-concello-de-carnota-ii-circu-to-correndo-pola-costa-da-morte/a43786b9-40d0-e622-0649-39d2113f7870'>Ver nova</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/ltima-hora-iv-carrera-popular-volta-a-oza/f4277ae0-a9f9-8636-f8e3-39d210149999'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/f4277ae0-a9f9-8636-f8e3-39d210149999-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">martes, 04 de agosto de 2015</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/ltima-hora-iv-carrera-popular-volta-a-oza/f4277ae0-a9f9-8636-f8e3-39d210149999'>
+                                    ÚLTIMA HORA IV CARRERA POPULAR VOLTA A OZA</a></h2>
+                            <p>Modificación no plano das carreiras de menores da Volta a Oza do circuíto Coruña Corre do próximo domingo 9 de agosto.</p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/ltima-hora-iv-carrera-popular-volta-a-oza/f4277ae0-a9f9-8636-f8e3-39d210149999'>Ver nova</a>
+                        </div>
+                    </div>
+                
+            <div id="panPager" class="pagination">
+	
+            <li class="active"><a>1</a></li><li><a href="http://www.carreirasgalegas.com/noticias/2">2</a></li><li><a href="http://www.carreirasgalegas.com/noticias/3">3</a></li><li><a href="http://www.carreirasgalegas.com/noticias/4">4</a></li><li><a href="http://www.carreirasgalegas.com/noticias/5">5</a></li><li><span>...</span></li><li><a href="http://www.carreirasgalegas.com/noticias/75">75</a></li><li><a href="http://www.carreirasgalegas.com/noticias/2">&raquo;</a></li>
+</div>
+        </div>
+    </div>
+
+            </section>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-4 info">
+                        <strong>Carreiras Galegas</strong>
+                        <p>Benvido á web do departamento de carreiras populares oficiais da Federación Galega de Atletismo. Aquí atoparás toda a información relativa ó calendario autonómico</p>
+                        
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 address">
+                        <address>
+                            <strong>Federación Galega de Atletismo</strong><br>
+                            <i class="fa fa-map-marker"></i>Avenida de Glasgow S/N<br />
+                            <span>O Birloque, 15008 A Coruña</span><br />
+                            <i class="fa fa-phone"></i>+34 981 29 17 99 - 981 29 16 83<br />
+                            <i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-12">
+                        ©
+                        2015
+                        Federación Galega de Atletismo - Sitio web desenvolvido por <a href="http://www.igasoft.es" target="_blank">Igasoft</a>
+
+                        <ul class="footer-nav">
+                            <li>
+                                <a href="aviso-legal">Aviso Legal</a>
+                            </li>
+                            <li>
+                                <a href="politica-cookies">Política de cookies</a>
+                            </li>
+                            <li>
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li>
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li>
+                                <a href="noticias">Novas</a>
+                            </li>
+                             <li>
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li>
+                                <a href="contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46963871-1', 'carreirasgalegas.com');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

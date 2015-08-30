@@ -1,0 +1,218 @@
+
+
+<!DOCTYPE html>
+
+<html lang="gl">
+<head><meta charset="UTF-8"><title>
+	Carreiras Galegas - Federación Galega de Atletismo
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" /><link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" /><link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" /><link href="css/pages/globals.css" rel="stylesheet" /><link href="css/pages/master.css" rel="stylesheet" /><link href="css/cookiecuttr.css" rel="stylesheet" />
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.cookiecuttr.js"></script>
+    <script src="js/pages/globals.js"></script>
+    <script src="js/pages/master.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    
+    <script src="js/pages/entrenamiento.js"></script>
+    <link href="css/pages/noticias.css" rel="stylesheet" />
+<link href="css/pages/mobile.css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="entrenamiento" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="x3JaMzbs2s+xGlt27mAE9xn82MucN7lDZwbD3WMPxJUleuNdeIKQ/8EhYPY6wsJ/MAjW0qPxWARmLTXr20EU7zLcz+KtoaA4J5czXHw0qH4yeQ9V8oCSwt2GKUWq6rMWxCOo8nQKQdDAWYjV10egaAE2qZ3oM4yP7mBj/jhBZiRshmlARpzwRK5gkqRF9WUx4HJsqVvUaHYjsGryypWAIpN6ZGSubeuFZYmrISXYPMH/M3uKo1j5bxGHzIZdpP5++ezYBp7VWByzIGy+1xQ87LXbskuKSWjSUxAEtWEr4V1Z2o7kV+bWbx9xADxlxkWD7ty41Fsf8nHBSt+OtlihSNUpbGCnGCiTk1POmpIVYMaQ94/vH6T1hNEoGf1N+IhHZXZV86kMsGzUru7ycCbU6SHLoZqDGgY6gFvFSB++yR5qPw/JBQsRUw7Jz24TYauOgF3AgGBSyFaccAvja9ilY56OFQ4nF1Y8IK0wtwAeR5iAakevBOUFjM2FVJwyRWr0cqL6MFhmHSU1qbPmsecaBkHE4idBA5lalZ0qpKqY1yBrdzwXVJr7netuYYdapcEa/CFc5rx5sffF9ZFcnLzoLNVpn/acC2dIF/qVKYRaUfSXc/GZLmv8fQkWFSYB+5CxC+BicTMAKTuTAthrNA7cNQHedouhRzyxIFm/F7kw29cGCO2RnvByBm3ZbdsOS7I/m67Yp9thYu6QcbBZr9Qn9sKYh2JUe6hbLaNUUV7DNoRGjmBMwnlg/6p6GRmJwGRA1yTopkizxGsbeF/YcSVG0eYBbaLrPQwb0AYWKG/7nYrOz+nsAP5SXaKDezCNNvcRDChdZ29+bFe8lXHX4rpn1nV+7Y3Wu9yO2lPkrIhk8PlXVFfZ2s9fwBWPhoUUmGcY2h353IV9pJY9sTOT5esbHBsSE5dD6IF7OJld/2swTQJa5i3VT1KR+3RiqNCsClh204aAjHY20mXqCbsXopwzPQMg7SObd6lKck7gzTSGQ5pP24n0cOIdy4ZIG5nJAyQbUrS+Q9bDgtigPWvSZQgnkuTqhZwNgsFhvp19P/FDNCPUgDKW3jBxWAtgP4s2RlXGvDJnj/XB+gLJeSI/qOOn/B71Ws63HmHrmvpTBRDKB+ZgLMxz7BbokE57AaNYQF1JsfSbh5u6DHeInhvBm1q7i2VQEYiJ8pMrGNgbMiYjxYeuYnmOmsSpiYOixgkog+5yaASrv1KdGiewyCIr2eZFnx+4kft0K1IL9BzfEZPuX+8XjtWiXdnD9/lv1LjqANUzVFWU1MEJhT3LVBzq80c6QJ9y6s8T9cObPKqqQGOLVQeCmpmRuHommyUXJgNp+Mf308khnJ2OAbMADHbAFENhV/Bk6nVIfMOGATYi1N0XUdZqFTz8a+oMErKtLDr1bH4Iq21EmC2udGfX2nyjpDelE1H6EXw9aKucPPdvXmpB3ZjyZ7Uiz/bdcwkSHw6eVibpec2yI3U/ow1U3oF0bmQuvqyIbCFFg0lkbMV9RmuvLnWTeeRfGBeg//i0LkZ+Z/z5KoG8mxuXDGWapzKwudUakYx8j+7KcibnnluICaBrP9L6xjL8awqB5fN1dIjqgfToGIAY+8wrFyN94Zmc9HaZN/gwD2lCyz85He4w96Kp736lEAxivFnFkjm7fqG6wm+U3o2GDQFZULx7MHpoHV//7hav5i0yxlV6W8moOHHGDMTGOlxlTFgghNzaTbh5SrC55CrYv0Ggfb+RQO8EN+UdLSnyPKbNoKhhlsQKMLsNibkH6ZqaJgAqp2CziB8L6HdpFd6ffblvjAiHKNdoPOtmX2CK1UZLctIDHKVRcfCk4MsReLXNzV1Kkiv8y6AXhOZDt5jkuebVGjI6FftdAzUzz5vP06RWQT4EDPAr911uj/uuKLY3AllkiyxG9J/AUoOC0KixHFena6BuZn3ECNlGnQi7livTGgIZdRsuSsDXhHb6TzGdPICeBUTofCYVpN5o2q4jceKgVJwRTKCQOnxrJcF2UBnV9BaeNw2u6HSGlx50/Ay9PbocZyZ0YmnWSRnhiHKsHoKZXxJ5YSSr5fb3Mxsz2WvPGkQtLXDBXdQviFU52fWEH7gpy7zQQHp0hFXiag+4e534e7T64V2NLY3zj51WPqV9SyOIokoWQN3bK4ereVxpPvP6qJJt4ynHwVbd/jvKH+skw6Ml+NJl7goZEqJF6SotYwx1E94f7FgznyZfXUwtTNnSQ5KcMEZ7O9JX26E2p0MYMel4veh+Pm60nyHEzz60wvDB/TF5wJlWWMOExsZYkTLuFWNxc9dS4dzo6QFDdM5APRl6romTQ5c/9/YK8+H3NpfEMuC/GAdmzY4RX9rYbI9m44vIK8dpFH1vUdleetu3l0KW2K/oLAqOA7gBNr4jBDuNEaPMPXMXJvpCKiZQMEfnZG5HHsA1SrNz0L2vxQfe+F3FsTLjaHg1ACLhtdnsWb7J8n3AWNigvZbaKoPpSzEA/Wh2BKJejJcSg9wuQ/Lgd9j+JmcNdK5tyKMX3uUP3mglQrVBdkvC/7MBhr6dmEOJWU2/MaZQz5u07yTlFVlSSMSLJOX14YBwVuJIKK05LgcXOh+nVHLZWYFjosEmT9QNo4JVBzOtmMckaMWYkUQp7l64VMl05tgTeUA9XXihuFC+edZuQRqZ6fwRulVN8wHtovrsUp76SXMZf783VHFNiB8rYt+qD+RqWjAM2p7I9L44oPv49JL2del+j5fZfxkOGS1+6WsBbW0XHCRyzqyjqBb8mIE9KWvkxeC9j5yv5lAPAudMIAfn1KhD+EqAzzhnJaYC/6mzm7ukuXCZNCvTG0aEV0pUr7LYWQ==" />
+
+        <header>
+            <div class="header">
+                <nav class="navbar navbar-default container" role="navigation">
+                    <!-- Brand and toggle get grouped for better mo
+                    bile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="img/master/logo-carreiras-galegas.jpg" /></a>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#categorias">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="header-info">                            
+                            <div class="header-contact">
+                                <span><i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a></span> <span><i class="fa fa-phone"></i>+34 981 29 17 99<br />
+                                </span>
+                            </div>
+                            <div class="btn-group language">
+                                <button type="button" class="btn btn-default">GL</button>
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="entrenamiento#">GL</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="categorias">
+                        <ul class="nav navbar-nav">
+                            <li id="nav-inicio">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li id="nav-noticias">
+                                <a href="noticias">Novas</a>
+                            </li>
+                            <li id="nav-calendario">
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li id="nav-resultados">
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li id="nav-entrenamiento">
+                                <a href="entrenamiento">Adestramento</a>
+                            </li>
+                            <li id="nav-salud">
+                                <a href="salud">Saúde</a>
+                            </li>
+                            <li id="nav-licenzas">
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li id="nav-contacto">
+                                <a href="contacto">Contacto</a>
+                            </li>
+                            
+                            
+                             
+                             
+                            <li id="navlogin" class="pull-right">
+                                <a href="login"><i class="fa fa-sign-in"></i> Iniciar sesión</a>                                
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+        <section class="container web-content">
+            <aside id="filter">
+            </aside>
+            <section>
+                
+    <div id="noticias">
+        <div class="col-md-12">
+            
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/plan-entrenamiento-de-14-semanas-para-medio-marat-n-fonte-www-runners-es/20bcf77f-dd92-f6d6-67cb-39c6d08e86b1'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/20bcf77f-dd92-f6d6-67cb-39c6d08e86b1-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">xoves, 23 de xaneiro de 2014</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/plan-entrenamiento-de-14-semanas-para-medio-marat-n-fonte-www-runners-es/20bcf77f-dd92-f6d6-67cb-39c6d08e86b1'>
+                                    PLAN ENTRENAMIENTO DE 14 SEMANAS PARA MEDIO MARATÓN (Fonte: www.runners.es)</a></h2>
+                            <p><p align="justify">Para triunfar en los 21,097km necesitas aumentar tu resistencia y velocidad. Así podrás correr a buen ritmo y acabar a tope.&nbsp; Si corres entre 40 y 50 kilómetros a la semana, haces unos 10 kilómetros en tu tirada larga y tienes un objetivo en mente, este plan te ayudará a prepararte para tu próxima media maratón</p></p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/plan-entrenamiento-de-14-semanas-para-medio-marat-n-fonte-www-runners-es/20bcf77f-dd92-f6d6-67cb-39c6d08e86b1'>Ver noticia</a>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-12 noticia f6">
+                        <div class="col-md-2 thumbnail f6">
+                            <a href='http://www.carreirasgalegas.com/noticia/17-principios-de-entrenamiento-para-corredores-fonte-j-m-prieto-de-foroatletismo-com/369b7b8a-7716-a74a-b505-39c68fd224c8'>
+                                <img id="imgNoticia" src='http://images.carreirasgalegas.com/image/noticia/369b7b8a-7716-a74a-b505-39c68fd224c8-200x130.jpg' /></a>
+                        </div>
+                        <div class="col-md-10">
+                            <span class="fecha">sábado, 05 de xaneiro de 2013</span>
+                            <h2>
+                                <a href='http://www.carreirasgalegas.com/noticia/17-principios-de-entrenamiento-para-corredores-fonte-j-m-prieto-de-foroatletismo-com/369b7b8a-7716-a74a-b505-39c68fd224c8'>
+                                    17 PRINCIPIOS DE ENTRENAMIENTO PARA CORREDORES (Fonte: J.M. Prieto de foroatletismo.com)</a></h2>
+                            <p><p align="justify">Los principios de entrenamiento son leyes máximas, preceptos científicos o leyes de validez muy genérica, que guían la planificación y ejecución del entrenamiento y que se cimientan en los procesos de adaptación biológica al esfuerzo.</p></p>
+                        </div>
+                        <div class="ver-noticia">
+                            <a href='http://www.carreirasgalegas.com/noticia/17-principios-de-entrenamiento-para-corredores-fonte-j-m-prieto-de-foroatletismo-com/369b7b8a-7716-a74a-b505-39c68fd224c8'>Ver noticia</a>
+                        </div>
+                    </div>
+                
+        </div>
+    </div>
+
+            </section>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="col-md-4 info">
+                        <strong>Carreiras Galegas</strong>
+                        <p>Benvido á web do departamento de carreiras populares oficiais da Federación Galega de Atletismo. Aquí atoparás toda a información relativa ó calendario autonómico</p>
+                        
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 address">
+                        <address>
+                            <strong>Federación Galega de Atletismo</strong><br>
+                            <i class="fa fa-map-marker"></i>Avenida de Glasgow S/N<br />
+                            <span>O Birloque, 15008 A Coruña</span><br />
+                            <i class="fa fa-phone"></i>+34 981 29 17 99 - 981 29 16 83<br />
+                            <i class="fa fa-envelope-o"></i><a href="mailto:info@carreirasgalegas.com">info@carreirasgalegas.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="col-md-12">
+                        ©
+                        2015
+                        Federación Galega de Atletismo - Sitio web desenvolvido por <a href="http://www.igasoft.es" target="_blank">Igasoft</a>
+
+                        <ul class="footer-nav">
+                            <li>
+                                <a href="aviso-legal">Aviso Legal</a>
+                            </li>
+                            <li>
+                                <a href="politica-cookies">Política de cookies</a>
+                            </li>
+                            <li>
+                                <a href="calendario">Calendario</a>
+                            </li>
+                            <li>
+                                <a href="resultados">Resultados</a>
+                            </li>
+                            <li>
+                                <a href="noticias">Novas</a>
+                            </li>
+                             <li>
+                                <a href="http://licenzas.carreirasgalegas.com" target="_blank">Licenzas</a>
+                            </li>
+                            <li>
+                                <a href="contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46963871-1', 'carreirasgalegas.com');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
